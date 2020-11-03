@@ -5,8 +5,8 @@
 | Specifications | Detail                                                                                    |
 |----------------|-------------------------------------------------------------------------------------------|
 | CPU            | INTEL I7-8700                                                                             |
-| RAM            | ADATA DDR4 2666MHz 16GB × 2                                                               |
-| SSD            | WD SN750 512GB M.2 PCIE                                                                   |
+| RAM            | ADATA DDR4 2666MHz 8GB × 2                                                               |
+| SSD            | WD SN750 500GB M.2 PCIE NVME                                                                  |
 | WIFI/BT        | BCM94360CS2                                                                               |
 | Cooler         | ID-COOLING IS40x                                                                          |
 
@@ -27,23 +27,23 @@ version：P4.4（support P3.x）
   * Secure Boot: Disabled(by default)
 * CSM Disable
 
-Other Configurations by default
+默认情况下其他配置
 
 ## Works
 
-* [x] Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
+* [x] 以太网/ WIFI /蓝牙/音频/ USB＆EX-USB /传感器
 
-* [x] DP/HDMI dual monitor output
+* [x] DP / HDMI双显示器输出
 
-* [x] Shutdown、Sleep
+* [x] 关机、睡眠
 
 ## Notes
 
-* After macOS installed done ([Installation Guide](https://www.tonymacx86.com/threads/unibeast-install-macos-mojave-on-any-supported-intel-based-pc.259381/)), please open `config.plist` and  fill few SMBIOS(PlatformInfo) info.
+* 完成 macOS 安装 后 ([Installation Guide](https://www.tonymacx86.com/threads/unibeast-install-macos-mojave-on-any-supported-intel-based-pc.259381/)), 请打开 `config.plist` and  fill 填写 SMBIOS(PlatformInfo) info.
 
 * ~~If you use `BCM94352Z` , please move BCM94352Z/* to CLOVER/kexts/Other.~~ （Unverified）
 
-* If you need to move CLOVER/kexts/Other/* to /L/E&/S/L/E, please modify `InjectKexts` to `Detect` in `config.plist` by Clover Configurator.
+* 如果你需要 move CLOVER/kexts/Other/* 到 /L/E&/S/L/E, 请 modify `InjectKexts` to `Detect` in `config.plist` by Clover Configurator.
 
 ## Tips
 
@@ -51,7 +51,7 @@ Other Configurations by default
 
 * 10.15.3 is the perfect version,if you have upgraded to 10.15.4, you need to add `igfxagdc=0` in the boot parameters to prevent the HDMI interface from being plugged in and out every time.
 * ~~don't upgrade to 10.15.5 ,if you want to use hdmi~~（WEG 1.4.1 fix hdmi）
-* Raise shared memory in bios can significantly reduce the restart probability
+* 提高BIOS中的共享内存可以显着降低重新启动的可能性
 
 ## Why Hackintosh
 
