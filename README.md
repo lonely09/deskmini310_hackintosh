@@ -5,7 +5,7 @@
 | Specifications | Detail                                                                                    |
 |----------------|-------------------------------------------------------------------------------------------|
 | CPU            | INTEL I7-8700                                                                             |
-| RAM            | ADATA DDR4 2666MHz 8GB × 2                                                               |
+| RAM            | 骇客神条 DDR4 2666MHz 8GB × 2                                                               |
 | SSD            | WD SN750 500GB M.2 PCIE NVME                                                                  |
 | WIFI/BT        | BCM94360CS2                                                                               |
 | Cooler         | ID-COOLING IS40x                                                                          |
